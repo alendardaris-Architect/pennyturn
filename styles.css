@@ -19,6 +19,15 @@ body.light{--ink:#1a2633;--muted:#667589;--surface:#fff;--line:#dce3ec;--lime:#5
 @media (min-width:1200px){.ad-rail{display:grid}}
 body.light .back-link,body.light .app-footer a{color:#647489}
 
+/* Legal pages */
+.legal-shell{width:100%;max-width:640px;margin:auto;padding:env(safe-area-inset-top) 20px 60px}
+.legal-shell h1{font-size:26px;letter-spacing:-1px;margin:24px 0 6px}
+.legal-shell h2{font-size:16px;margin:26px 0 8px;color:var(--ink)}
+.legal-shell p,.legal-shell li{color:#c5cbd5;font-size:14px;line-height:1.6}
+.legal-shell small{color:var(--muted)}
+.legal-shell a{color:var(--lime)}
+body.light .legal-shell p,body.light .legal-shell li{color:#33475e}
+
 /* Backup settings menu */
 .settings-wrap{position:relative}.settings-panel{position:absolute;top:calc(100% + 8px);right:0;display:none;flex-direction:column;gap:2px;min-width:190px;padding:7px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.35);z-index:15}.settings-panel.show{display:flex}.settings-panel button,.settings-panel label{display:block;width:100%;border:0;background:transparent;color:var(--ink);text-align:left;padding:10px 11px;border-radius:9px;font-size:13px;font-weight:650;font-family:inherit;cursor:pointer}.settings-panel button:hover,.settings-panel label:hover{background:#26314a}.settings-panel input[type=file]{display:none}
 body.light .settings-panel{background:#fff;box-shadow:0 12px 30px rgba(35,51,69,.14)}body.light .settings-panel button:hover,body.light .settings-panel label:hover{background:#f3f7ed}

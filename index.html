@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#0c1220" />
     <meta name="description" content="Free resale profit calculator. Know your margin before you list, track inventory and sales — runs entirely in your browser." />
     <title>Pennyturn — Profit calculator</title>
-    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <!-- AdSense: once approved, paste the site verification <meta> tag and the
          AdSense loader <script> here. Also add the Google Funding Choices (CMP)
@@ -16,7 +16,6 @@
     <div class="ad-rail ad-rail-left">Advertisement</div>
     <div class="ad-rail ad-rail-right">Advertisement</div>
     <main class="app-shell">
-      <a class="back-link" href="../index.html">← Toolbox</a>
       <header class="topbar">
         <div class="brand"><span class="brand-mark">P</span><span>pennyturn</span></div>
         <div class="top-actions"><select id="languageButton" class="language-button" aria-label="Choose language"><option value="en">EN</option><option value="fr">FR</option><option value="es">ES</option><option value="pt">PT</option><option value="zh">中文</option><option value="ru">RU</option><option value="ja">日本語</option></select><button id="themeButton" class="theme-button" aria-label="Toggle theme">☼</button><button id="currencyButton" class="currency-button" aria-label="Change currency">€ EUR</button><div class="settings-wrap"><button id="settingsButton" class="theme-button" aria-label="Backup settings">⚙</button><div id="settingsPanel" class="settings-panel"><button id="exportData">⭳ Export data</button><label class="settings-file"><input id="importFile" type="file" accept="application/json" /><span>⭱ Import data</span></label><button id="exportCsv">⭳ Export sold CSV</button></div></div></div>
@@ -69,7 +68,7 @@
         <div class="screen-heading"><div><p class="eyebrow">MONEY MADE</p><h1>Sales history</h1></div></div><div id="historyTotals" class="summary-card"><div><span>All-time profit</span><strong>€0.00</strong></div><div><span>Items sold</span><strong>0</strong></div></div><div id="historyList" class="inventory-list"></div><div id="historyEmpty" class="empty-state"><div>✓</div><h2>Your sales will appear here</h2><p>Mark an inventory item as sold to track what you actually made.</p></div>
       </section>
 
-      <footer class="app-footer"><a href="../index.html">← Toolbox</a><a href="../privacy.html">Privacy</a></footer>
+      <footer class="app-footer"><a href="privacy.html">Privacy</a></footer>
 
       <section id="onboarding" class="onboarding" aria-label="Welcome"><div class="onboarding-card"><div class="onboarding-mark">P</div><p class="eyebrow">WELCOME TO PENNYTURN</p><h1>Know your profit<br>before you list.</h1><p>Track every cost, protect your profit, and keep your stock under control.</p><label class="field"><span>Your main marketplace</span><select id="onboardingMarket"><option value="vinted">Vinted</option><option value="ebay">eBay</option><option value="depop">Depop</option><option value="custom">Other / custom</option></select></label><button id="startApp" class="primary-button">Set up my calculator →</button><small>Your data stays on this device.</small></div></section>
       <nav class="tabbar"><button class="tab active" data-screen="dashboard"><span>⌂</span><i data-nav="home">Home</i></button><button class="tab" data-screen="calculator"><span>⌁</span><i data-nav="calculator">Calculator</i></button><button class="tab" data-screen="inventory"><span>▣</span><i data-nav="inventory">Inventory</i></button><button class="tab" data-screen="minimum"><span>◎</span><i data-nav="minimum">Min price</i></button></nav>
