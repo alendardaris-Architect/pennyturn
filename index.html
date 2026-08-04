@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="Free profit calculator for Vinted, eBay & Depop resellers. Track fees, margin, and inventory — free, no sign-up." />
     <meta name="twitter:image" content="https://penny-turn.com/og-image.png" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=1" />
+    <link rel="stylesheet" href="styles.css?v=2" />
     <!-- AdSense: once approved, paste the site verification <meta> tag and the
          AdSense loader <script> here. Also add the Google Funding Choices (CMP)
          snippet here for EEA consent — required before any ad renders. -->
@@ -56,7 +56,7 @@
       </section>
 
       <section id="inventory" class="screen" aria-label="Inventory">
-        <div class="screen-heading"><div><p class="eyebrow">YOUR STOCK</p><h1>Inventory</h1></div><button id="addFromInventory" class="icon-button" aria-label="Add item">+</button></div>
+        <div class="screen-heading"><div><p class="eyebrow">YOUR STOCK</p><h1>Inventory</h1></div><div class="heading-actions"><button id="inventoryExport" class="icon-button" aria-label="Export inventory">⭳</button><button id="addFromInventory" class="icon-button" aria-label="Add item">+</button></div></div>
         <div id="inventorySummary" class="summary-card"><div><span>Potential profit</span><strong>€0.00</strong></div><div><span>Items listed</span><strong>0</strong></div></div>
         <div class="inventory-filters"><button class="filter active" data-filter="listed">Listed</button><button class="filter" data-filter="draft">Draft</button><button class="filter" data-filter="sold">Sold</button></div><div id="inventoryList" class="inventory-list"></div>
         <div id="emptyState" class="empty-state"><div>♢</div><h2>Nothing saved yet</h2><p>Calculate an item, then save it here to keep your inventory organised.</p><button class="secondary-button" data-go="calculator">Calculate an item</button></div>
@@ -83,6 +83,6 @@
       <nav class="tabbar"><button class="tab active" data-screen="dashboard"><span>⌂</span><i data-nav="home">Home</i></button><button class="tab" data-screen="calculator"><span>⌁</span><i data-nav="calculator">Calculator</i></button><button class="tab" data-screen="inventory"><span>▣</span><i data-nav="inventory">Inventory</i></button><button class="tab" data-screen="minimum"><span>◎</span><i data-nav="minimum">Min price</i></button></nav>
     </main>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=1"></script>
+    <script src="app.js?v=2"></script>
   </body>
 </html>
